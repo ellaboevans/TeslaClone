@@ -7,7 +7,6 @@ export default function App() {
   function handleClick() {
     setCount((prevCount) => prevCount + 1);
   }
-  let teslaUrl = "https:/www.tesla.com";
   return (
     <div className="flex flex-col justify-center items-center h-80">
       <img
@@ -18,7 +17,7 @@ export default function App() {
       <div className="m-8">
         <h1 className="text-center font-semibold text-3xl font-Gotham ">
           Yet to start some{" "}
-          <a href={teslaUrl} target="_blank">
+          <a href="https:/www.tesla.com" target="_blank">
             <span className="uppercase tracking-wider text-red-600 underline">
               tesla
             </span>
