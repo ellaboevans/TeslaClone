@@ -42,7 +42,7 @@ export default function App() {
       </button>
       <p className="mt-8">
         <small>
-          Powered <strong>CodeConcept</strong>
+          Powered by <strong>CodeConcept</strong>
         </small>
       </p>
     </div>
