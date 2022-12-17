@@ -29,7 +29,7 @@ export default function App() {
           </a>{" "}
           side project
         </h1>
-        <p className="font-Gotham tracking-wide  text-center text-xl mt-8 bg-gray-400 py-8  rounded shadow-lg ">
+        <p className="font-Gotham tracking-wide  text-center text-xl mt-8 bg-gray-400 py-8  rounded shadow-xl ">
           Do some counting
           <span className="font-bold text-3xl block text-red-600">{count}</span>
         </p>
