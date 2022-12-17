@@ -8,10 +8,10 @@ export default function App() {
     setCount((prevCount) => prevCount + 1);
   }
 
-  function handleLink(){
-    window.open("https:/www.tesla.com");
-    console.log("opened")
-  }
+  // function handleLink(){
+  //   window.open("https:/www.tesla.com");
+  //   console.log("opened")
+  // }
   return (
     <div className="flex flex-col justify-center items-center h-80">
       <img
@@ -22,7 +22,7 @@ export default function App() {
       <div className="m-8">
         <h1 className="text-center font-semibold text-3xl font-Gotham ">
           Yet to start some{" "}
-          <a onClick={handleLink} className="cursor-pointer">
+          <a href="#" className="cursor-pointer">
             <span className="uppercase tracking-wider text-red-600 underline">
               tesla
             </span>
