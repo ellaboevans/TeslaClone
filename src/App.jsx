@@ -30,7 +30,7 @@ export default function App() {
       </div>
       <button
         onClick={handleClick}
-        className="py-4 px-8 rounded-lg text-white bg-blue-500  hover:text-red-500 transition-all duration-200 "
+        className="py-4 px-8 rounded-lg text-white bg-blue-500  hover:bg-blue-600 transition-all duration-200 "
       >
         Let's start counting
       </button>
