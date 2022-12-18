@@ -77,13 +77,13 @@ export default function Header() {
             Schedule a Test Drive
           </a>
         </div>
-        <div className="flex justify-between gap-4 items-center p-7 mt-28 ">
+        <div className="flex justify-between gap-4 items-center md:p-11 p-7 mt-28 ">
           <Button btnColor="bg-btn-bg text-white backdrop-blur">Buy Now</Button>
           <Button btnColor="bg-white text-btn-bg backdrop-blur opacity-80">
             Customer Order
           </Button>
         </div>
-        <div className="w-12 h-16 py-16 mt-0">
+        <div className="w-12 h-16 md:py-0 py-16 mt-0">
           <img src={chevron} alt="" className="w-full mt-8 animate-bounce" />
         </div>
       </div>
