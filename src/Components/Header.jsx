@@ -1,15 +1,15 @@
 import React from "react";
-import logo from "../assets/tesla-logo.png";
+import logo from "../assets/Tesla-logo.svg";
 import chevron from "../assets/chevron.svg"
 import Button from "./Button";
 
 export default function Header() {
   return (
     <section className="p-2 md:bg-hero-image-desktop bg-hero-image-mobile bg-no-repeat lg:bg-top md:bg-center h-screen bg-cover overflow-hidden">
-      <header className="p-4 font-medium text-gray-700 text-sm font-Gotham">
+      <header className="px-8 font-medium text-gray-700 text-sm font-Gotham">
         <nav className="flex justify-between items-center">
-          <div id="logo" className="w-2/12 cursor-pointer">
-            <img src={logo} alt="" />
+          <div id="logo" className="w-36 utline cursor-pointer">
+            <img src={logo} alt="" className="object-con"/>
           </div>
           <ul className="hidden md:flex flex items-center gap-1">
             <a href="#">
@@ -70,7 +70,7 @@ export default function Header() {
           </div>
         </nav>
       </header>
-      <div className="flex flex-col h-3/4 items-center py-24">
+      <div className="flex flex-col h-3/4 items-center py-16">
         <div id="hero-tex" className=" text-center font-Gotham p-8 md:p-12">
           <h1 className="text-5xl font-medium mb-2 text-gray-800">Model 3</h1>
           <a href="#" className="text-sm text-gray-700 underline">
