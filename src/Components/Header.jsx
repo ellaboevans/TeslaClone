@@ -9,7 +9,7 @@ export default function Header() {
       <header className="px-8 font-medium text-gray-700 text-sm font-Gotham">
         <nav className="flex justify-between items-center">
           <div id="logo" className="w-36 utline cursor-pointer">
-            <img src={logo} alt="" className="object-con"/>
+            <img src={logo} alt="" className="object-con" />
           </div>
           <ul className="hidden md:flex flex items-center gap-1">
             <a href="#">
@@ -78,10 +78,16 @@ export default function Header() {
           </a>
         </div>
         <div className="flex justify-between gap-4 items-center md:p-11 p-7 mt-28 ">
-          <Button btnColor="bg-btn-bg text-white backdrop-blur">Buy Now</Button>
-          <Button btnColor="bg-white text-btn-bg backdrop-blur opacity-80">
-            Customer Order
-          </Button>
+          <a href="#">
+            <Button btnColor="bg-btn-bg text-white backdrop-blur">
+              Buy Now
+            </Button>
+          </a>
+          <a href="#">
+            <Button btnColor="bg-white text-btn-bg backdrop-blur opacity-80">
+              Customer Order
+            </Button>
+          </a>
         </div>
         <div className="w-12 h-16 md:py-0 py-16 mt-0">
           <img src={chevron} alt="" className="w-full mt-8 animate-bounce" />
