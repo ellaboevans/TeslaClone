@@ -92,7 +92,7 @@ export default function Header() {
           </a>
         </div>
         <div className="w-12 h-16 md:py-0 -pt-1">
-          <img src={chevron} alt="" className="w-full mt-8 animate-bounce" />
+          <img src={chevron} alt="" className="w-full animate-bounce" />
         </div>
       </div>
     </section>
