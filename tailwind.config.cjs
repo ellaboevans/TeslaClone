@@ -16,6 +16,9 @@ module.exports = {
       colors: {
         "btn-bg": "rgba(23,26,32,0.8)",
       },
+      width: {
+        100: "28rem",
+      },
     },
   },
   plugins: [],
