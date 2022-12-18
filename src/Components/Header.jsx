@@ -71,7 +71,7 @@ export default function Header() {
         </nav>
       </header>
       <div className="flex flex-col h-screen items-center justify-evenly ">
-        <div id="hero-tex" className=" text-center font-Gotham -mt-">
+        <div id="hero-tex" className=" text-center font-Gotham mt-18">
           <h1 className="text-5xl font-medium mb-2 text-gray-800">Model 3</h1>
           <a href="#" className="text-sm text-gray-700 underline">
             Schedule a Test Drive
@@ -83,7 +83,7 @@ export default function Header() {
             Customer Order
           </Button>
         </div>
-        <div className="w-12 h-12">
+        <div className="w-12 h-12  mt-0">
           <img src={chevron} alt="" className="w-full animate-bounce" />
         </div>
       </div>
