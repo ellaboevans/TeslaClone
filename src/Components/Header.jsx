@@ -77,7 +77,7 @@ export default function Header() {
             Schedule a Test Drive
           </a>
         </div>
-        <div className="flex justify-between gap-4 items-center md:p-11 p-7 mt-28 ">
+        <div className="flex flex-col md:flex-row justify-between gap-4 items-center md:p-11 p-7 mt-28 ">
           <a href="#">
             <Button btnColor="bg-btn-bg text-white backdrop-blur">
               Buy Now
