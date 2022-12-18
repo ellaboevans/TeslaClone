@@ -71,8 +71,8 @@ export default function Header() {
         </nav>
       </header>
       <div className="flex flex-col h-3/4 items-center py-16">
-        <div id="hero-tex" className=" text-center font-Gotham p-8 md:p-12">
-          <h1 className="text-5xl font-medium mb-2 text-gray-800">Model 3</h1>
+        <div id="hero-tex" className=" text-center font-Gotham p-8 md:p-8">
+          <h1 className="text-5xl md:text-7xl font-medium text-gray-800">Model 3</h1>
           <a href="#" className="text-sm text-gray-700 underline">
             Schedule a Test Drive
           </a>
