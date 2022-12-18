@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Header from "./Components/Header";
+import Hero from "./Components/Hero";
 
 export default function App() {
   const [count, setCount] = useState(0);
@@ -14,7 +14,7 @@ export default function App() {
   // }
   return (
     <div className="">
-      <Header />
+      <Hero />
     </div>
   );
 }
