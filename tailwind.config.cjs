@@ -9,6 +9,9 @@ module.exports = {
         gothamBook: ["Gotham Book", "sans-serif"],
         gothamUltra: ["Gotham Ultra", "sans-serif"],
       },
+      backgroundImage: {
+        "hero-image": "url('./assets/Homepage.jpeg')",
+      },
     },
   },
   plugins: [],
