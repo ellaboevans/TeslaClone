@@ -29,7 +29,7 @@ export default function Header() {
           </a>
         </div>
         <div className="w-8 pb-8">
-          <img src={chevron} alt="" className="w-full animate-bounce" />
+          <img src={chevron} alt="" className="w-full animate-bounce cursor-pointer" />
         </div>
       </div>
     </section>
