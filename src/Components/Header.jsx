@@ -81,12 +81,12 @@ export default function Header() {
         </div>
         <div className="flex flex-col md:flex-row justify-between gap-4 items-center md:p-11 p-4 mt-40 ">
           <a href="#">
-            <Button btnColor="bg-btn-bg text-white backdrop-blur opacity-80">
+            <Button btnColor="bg-btn-bg text-white backdrop-blur opacity-95">
               Buy Now
             </Button>
           </a>
           <a href="#">
-            <Button btnColor="bg-white text-btn-bg backdrop-blur opacity-80">
+            <Button btnColor="bg-white text-btn-bg backdrop-blur opacity-90">
               Customer Order
             </Button>
           </a>
