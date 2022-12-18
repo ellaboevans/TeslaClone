@@ -9,11 +9,7 @@ export default function Button({
   return (
     <button
       type={type}
-      className={
-        ` ${btnColor} inline-flex items-center justify-center w-60 h-10 rounded text-sm capitalize font-bold ${
-          processing
-        }`
-      }
+      className={` ${btnColor} inline-flex items-center justify-center w-60 h-10 rounded text-sm capitalize font-bold ${processing}`}
       disabled={processing}
     >
       {children}

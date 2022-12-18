@@ -4,7 +4,7 @@ import Button from "./Button";
 
 export default function Header() {
   return (
-    <section className="md:bg-hero-image-desktop bg-hero-image-mobile bg-no-repeat bg-top h-screen bg-cover">
+    <section className="md:bg-hero-image-desktop  outline bg-hero-image-mobile bg-no-repeat lg:bg-top md:bg-center h-screen bg-cover">
       <header className="p-4 font-medium text-gray-700 text-sm  font-Gotham">
         <nav className="flex justify-between items-center">
           <div id="logo" className="w-2/12 cursor-pointer">
@@ -69,14 +69,18 @@ export default function Header() {
           </div>
         </nav>
       </header>
-      <div id="hero-tex" className=" text-center mt-16 font-Gotham">
-        <h1 className="text-5xl font-medium mb-2 text-gray-800">Model 3</h1>
-        <a href="#" className="text-sm text-gray-700 underline">
-          Schedule a Test Drive
-        </a>
-        <div className="flex justify-center gap-4 mt-48 items-center">
-          <Button btnColor="bg-gray-800 text-white ">Buy Now</Button>
-          <Button btnColor="bg-white text-gray-800 opacity-80">Customer Order</Button>
+      <div className="flex flex-col h-screen items-center justify-evenly ">
+        <div id="hero-tex" className=" text-center font-Gotham -mt-24">
+          <h1 className="text-5xl font-medium mb-2 text-gray-800">Model 3</h1>
+          <a href="#" className="text-sm text-gray-700 underline">
+            Schedule a Test Drive
+          </a>
+        </div>
+        <div className="flex justify-between gap-4 items-center mt-20">
+          <Button btnColor="bg-btn-bg text-white backdrop-blur">Buy Now</Button>
+          <Button btnColor="bg-white text-btn-bg backdrop-blur opacity-80">
+            Customer Order
+          </Button>
         </div>
       </div>
     </section>
