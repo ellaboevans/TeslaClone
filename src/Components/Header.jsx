@@ -13,37 +13,37 @@ export default function Header() {
           </div>
           <ul className="hidden md:flex flex items-center gap-1">
             <a href="#">
-              <li className="hover:bg-gray-300 transition esase-out duration-700 py-1 px-4  cursor-pointer rounded">
+              <li className="hover:bg-slate-400 backdrop-blur inline-flex transition esase-out duration-700 py-1 px-4  cursor-pointer rounded">
                 Model S
               </li>
             </a>
 
             <a href="#">
-              <li className="hover:bg-gray-300 transition esase-out duration-700 py-1 px-4  cursor-pointer rounded">
+              <li className="hover:bg-slate-400 backdrop-blur inline-flex transition esase-out duration-700 py-1 px-4  cursor-pointer rounded">
                 Model 3
               </li>
             </a>
 
             <a href="#">
-              <li className="hover:bg-gray-300 transition esase-out duration-700 py-1 px-4  cursor-pointer rounded">
+              <li className="hover:bg-slate-400 backdrop-blur inline-flex transition esase-out duration-700 py-1 px-4  cursor-pointer rounded">
                 Model X
               </li>
             </a>
 
             <a href="#">
-              <li className="hover:bg-gray-300 transition esase-out duration-700 py-1 px-4  cursor-pointer rounded">
+              <li className="hover:bg-slate-400 backdrop-blur inline-flex transition esase-out duration-700 py-1 px-4  cursor-pointer rounded">
                 Model Y
               </li>
             </a>
 
             <a href="#">
-              <li className="hover:bg-gray-300 transition esase-out duration-700 py-1 px-4  cursor-pointer rounded">
+              <li className="hover:bg-slate-400 backdrop-blur inline-flex transition esase-out duration-700 py-1 px-4  cursor-pointer rounded">
                 Solar Roof
               </li>
             </a>
 
             <a href="#">
-              <li className="hover:bg-gray-300 transition esase-out duration-700 py-1 px-4  cursor-pointer rounded">
+              <li className="hover:bg-slate-400 backdrop-blur inline-flex transition esase-out duration-700 py-1 px-4  cursor-pointer rounded">
                 Solar Panels
               </li>
             </a>
@@ -51,19 +51,19 @@ export default function Header() {
           <div className=" flex gap-1">
             <a
               href="#"
-              className="hover:bg-gray-300 transition esase-out duration-700 py-1 px-4 rounded"
+              className="hover:bg-slate-400 backdrop-blur inline-flex transition esase-out duration-700 py-1 px-4 rounded"
             >
               Shop
             </a>
             <a
               href="#"
-              className="hover:bg-gray-300 transition esase-out duration-700 py-1 px-4 rounded"
+              className="hover:bg-slate-400 backdrop-blur inline-flex transition esase-out duration-700 py-1 px-4 rounded"
             >
               Account
             </a>
             <a
               href="#"
-              className="hover:bg-gray-300 transition esase-out duration-700 py-1 px-4 rounded"
+              className="hover:bg-slate-400 backdrop-blur inline-flex transition esase-out duration-700 py-1 px-4 rounded"
             >
               Menu
             </a>
