@@ -10,7 +10,8 @@ module.exports = {
         gothamUltra: ["Gotham Ultra", "sans-serif"],
       },
       backgroundImage: {
-        "hero-image": "url('./assets/Homepage.jpeg')",
+        "hero-image-desktop": "url('./assets/Homepage.jpeg')",
+        "hero-image-mobile": "url('./assets/M3-Homepage-Mobile-LHD.jpeg')",
       },
     },
   },

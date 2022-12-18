@@ -3,7 +3,7 @@ import logo from "../assets/tesla-logo.png";
 
 export default function Header() {
   return (
-    <section className="bg-hero-image bg-no-repeat bg-top h-screen bg-cover">
+    <section className="md:bg-hero-image-desktop bg-hero-image-mobile bg-no-repeat bg-top h-screen bg-cover">
       <header className="p-4 font-medium text-gray-700 text-sm  font-Gotham">
         <nav className="flex justify-between items-center">
           <div id="logo" className="w-2/12 cursor-pointer">
