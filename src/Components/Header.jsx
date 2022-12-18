@@ -91,7 +91,7 @@ export default function Header() {
             </Button>
           </a>
         </div>
-        <div className="w-12 h-16 pb-8">
+        <div className="w-8 pb-8">
           <img src={chevron} alt="" className="w-full animate-bounce" />
         </div>
       </div>
