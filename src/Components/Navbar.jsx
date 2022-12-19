@@ -5,7 +5,7 @@ import logo from "../assets/Tesla-logo.svg";
 export default function Navbar(){
     return (
       <header className="px-8 font-medium text-gray-700 text-sm font-Gotham relative">
-        <nav className="flex justify-between items-center fixed top-0 left-0 right-0 backdrop-blur">
+        <nav className="flex justify-between items-center fixed top-0 left-0 right-0 backdrop-blur-xl">
           <div id="logo" className="w-36 -mt-4 cursor-pointer">
             <img src={logo} alt="" className="object-contain w-full" />
           </div>
