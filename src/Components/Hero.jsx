@@ -3,6 +3,7 @@ import chevron from "../assets/chevron.svg";
 import Button from "./Button";
 import Navbar from "./Navbar";
 import ModelY from "./ModelY";
+import ModelS from "./ModelS";
 
 export default function Header() {
   return (
@@ -40,6 +41,7 @@ export default function Header() {
         </div>
       </section>
       <ModelY />
+      <ModelS />
     </>
   );
 }
