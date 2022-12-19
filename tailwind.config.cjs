@@ -12,6 +12,8 @@ module.exports = {
       backgroundImage: {
         "hero-image-desktop": "url('./assets/Homepage.jpeg')",
         "hero-image-mobile": "url('./assets/M3-Homepage-Mobile-LHD.jpeg')",
+        "modely-desktop": "url('./assets/Desktop-ModelY.jpeg')",
+        "modely-mobile": "url('./assets/Mobile-ModelY.jpeg')",
       },
       colors: {
         "btn-bg": "rgba(23,26,32,0.8)",
