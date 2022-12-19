@@ -16,6 +16,12 @@ module.exports = {
         "modely-mobile": "url('./assets/Mobile-ModelY.jpeg')",
         "model-s-desktop": "url('./assets/Desktop-ModelS.jpeg')",
         "model-s-mobile": "url('./assets/Mobile-ModelS.jpeg')",
+        "model-x-desktop": "url('./assets/Desktop-ModelX.jpeg')",
+        "model-x-mobile": "url('./assets/Mobile-ModelX.jpeg')",
+        "solarPanel-desktop": "url('./assets/SolarPanel-D.jpeg')",
+        "solarPanel-mobile": "url('./assets/SolarPanel-M.jpeg')",
+        "solarRoof-desktop": "url('./assets/SolarRoof-D.webp')",
+        "solarRoof-mobile": "url('./assets/SolarRoof-M.webp')",
       },
       colors: {
         "btn-bg": "rgba(23,26,32,0.8)",
