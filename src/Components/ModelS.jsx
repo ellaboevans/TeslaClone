@@ -13,7 +13,7 @@ export default function ModelS() {
             Schedule a Test Drive
           </a>
         </div>
-        <div className="flex flex-col md:flex-row justify-between gap-4 items-center md:p-11 p-4 mt-44 md:mt-72   ">
+        <div className="flex flex-col md:flex-row justify-between gap-4 items-center md:p-11 p-4 mt-60 md:mt-72   ">
           <a href="#">
             <Button btnColor="bg-btn-bg text-white backdrop-blur opacity-95">
               Buy Now

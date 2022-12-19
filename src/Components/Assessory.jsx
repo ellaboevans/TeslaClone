@@ -10,7 +10,7 @@ export default function Assessory() {
             Accessories
           </h1>
         </div>
-        <div className="flex flex-col md:flex-row justify-between gap-4 items-center mb-12 md:p-11 p-4 mt-44 md:mt-60   ">
+        <div className="flex flex-col md:flex-row justify-between gap-4 items-center mb-12 md:p-11 p-4 mt-60 md:mt-60   ">
           <a href="#">
             <Button btnColor="bg-btn-bg text-white backdrop-blur opacity-100">
               Shop Now
