@@ -61,7 +61,7 @@ export default function Navbar(){
             </a>
             <a
               href="#"
-              className="hover:bg-slate-400 bg-slate-400 md:bg-transparent hover:backdrop-blur inline-flex transition esase-out duration-700 py-1 px-4 rounded"
+              className="hover:bg-slate-400 mr-4 md:mr-0 bg-slate-400 md:bg-transparent hover:backdrop-blur inline-flex transition esase-out duration-700 py-1 px-4 rounded"
             >
               Menu
             </a>
