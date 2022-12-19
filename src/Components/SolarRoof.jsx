@@ -3,7 +3,7 @@ import Button from "./Button";
 
 export default function SolarRoof(){
     return (
-      <section className="p-2 md:bg-solarPanel-desktop bg-solarPanel-mobile bg-no-repeat  md:bg-center h-screen bg-cover overflow-hidden">
+      <section className="p-2 md:bg-solarRoof-desktop bg-solarRoof-mobile bg-no-repeat  md:bg-center h-screen bg-cover overflow-hidden">
         <div className="flex flex-col h-3/4 items-center mt-20 py-20 md:py-0">
           <div id="hero-tex" className=" text-center font-Gotham p-8 md:p-8">
             <h1 className="text-4xl md:-mt-6 font-medium text-gray-800">
