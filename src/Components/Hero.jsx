@@ -6,6 +6,7 @@ import ModelY from "./ModelY";
 import ModelS from "./ModelS";
 import ModelX from "./ModelX";
 import SolarPanel from "./SolarPanel";
+import SolarRoof from "./SolarRoof";
 
 export default function Header() {
   return (
@@ -46,6 +47,7 @@ export default function Header() {
       <ModelS />
       <ModelX />
       <SolarPanel />
+      <SolarRoof/>
     </>
   );
 }
