@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import ModelY from "./ModelY";
 import ModelS from "./ModelS";
 import ModelX from "./ModelX";
+import SolarPanel from "./SolarPanel";
 
 export default function Header() {
   return (
@@ -43,7 +44,8 @@ export default function Header() {
       </section>
       <ModelY />
       <ModelS />
-      <ModelX/>
+      <ModelX />
+      <SolarPanel />
     </>
   );
 }
