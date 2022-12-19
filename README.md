@@ -28,6 +28,7 @@ Users should be able to:
 2. Customizing Tailwindcss Config File and using directive
 3. Creating Variants of components in React
 4. Making the mobile menu interactive
+5. Props Usages
 
 ### Continued development
 
