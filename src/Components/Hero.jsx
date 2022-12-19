@@ -4,6 +4,7 @@ import Button from "./Button";
 import Navbar from "./Navbar";
 import ModelY from "./ModelY";
 import ModelS from "./ModelS";
+import ModelX from "./ModelX";
 
 export default function Header() {
   return (
@@ -42,6 +43,7 @@ export default function Header() {
       </section>
       <ModelY />
       <ModelS />
+      <ModelX/>
     </>
   );
 }
