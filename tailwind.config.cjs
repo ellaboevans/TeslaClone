@@ -23,7 +23,7 @@ module.exports = {
         "solarRoof-desktop": "url('./assets/SolarRoof-D.webp')",
         "solarRoof-mobile": "url('./assets/SolarRoof-M.webp')",
         "Accessory-desktop": "url('./assets/Assessory-D.jpeg')",
-        "Accessory-mobile": "url('./assets/Assessory-M.jpeg')",
+        "Accessory-mobile": "url('./assets/Asessory-M.jpeg')",
       },
       colors: {
         "btn-bg": "rgba(23,26,32,0.8)",
