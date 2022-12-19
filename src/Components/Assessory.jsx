@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 export default function Assessory() {
   return (
@@ -11,7 +12,7 @@ export default function Assessory() {
         </div>
         <div className="flex flex-col md:flex-row justify-between gap-4 items-center md:p-11 p-4 mt-44 md:mt-72   ">
           <a href="#">
-            <Button btnColor="bg-btn-bg text-white backdrop-blur opacity-95">
+            <Button btnColor="bg-btn-bg text-white backdrop-blur opacity-100">
               Shop Now
             </Button>
           </a>
