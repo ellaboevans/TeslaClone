@@ -19,7 +19,7 @@ export default function Assessory() {
           </a>
         </div>
       </div>
-      <div className="flex justify-center -mt-8">
+      <div className="flex justify-center -mt-8 md:-mt-2">
         <Footer />
       </div>
     </section>
