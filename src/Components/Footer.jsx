@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Footer() {
-  const right = document.querySelector("span");
+  let right = document.querySelector("span");
 
   let date = new Date();
   right = date.getFullYear();
