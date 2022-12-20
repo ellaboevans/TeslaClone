@@ -42,3 +42,4 @@ I will continue to build more complex project to enhance my tech stack.
 ## Acknowledgments
 
 I am very grateful to have access to articles, stack overflow, and many more on the internet. I would like to thank each and everyone who has contributed to help us gain knowledge in whatever we do with the web.
+
