@@ -18,9 +18,9 @@ export default function Header() {
 
   return (
     <>
-      <section className="p-2 md:bg-hero-image-desktop bg-hero-image-mobile bg-no-repeat  md:bg-center h-screen bg-cover overflow-hidden">
+      <section className="p-2 md:bg-hero-image-desktop bg-hero-image-mobile bg-no-repeat  md:bg-center h-screen bg-cover overflow-hidden" >
         <Navbar />
-        <div className="flex flex-col h-3/4 items-center mt-20 py-20 md:py-0">
+        <div className="flex flex-col h-3/4 items-center mt-0 md:mt-20 py-20 md:py-0">
           <div
             id="hero-tex"
             className=" text-center font-Gotham p-8 md:p-8"
@@ -33,7 +33,7 @@ export default function Header() {
               Schedule a Test Drive
             </a>
           </div>
-          <div className="flex flex-col md:flex-row justify-between gap-4 items-center md:p-11 p-4 mt-44 md:mt-60   ">
+          <div className="flex flex-col md:flex-row justify-between gap-4 items-center md:p-11 p-4 mt-56 md:mdt-60   ">
             <a href="#">
               <Button btnColor="bg-btn-bg text-white backdrop-blur opacity-95">
                 Buy Now

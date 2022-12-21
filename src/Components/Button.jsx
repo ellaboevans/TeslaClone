@@ -16,7 +16,7 @@ export default function Button({
       type={type}
       className={` ${btnColor} inline-flex items-center justify-center w-80  h-12 md:w-72 md:h-10 rounded text-sm capitalize font-bold ${processing}`}
       disabled={processing}
-      data-aos="fade-down"
+      data-aos="fade-up"
     >
       {children}
     </button>

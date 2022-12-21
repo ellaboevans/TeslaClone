@@ -10,7 +10,10 @@ export default function Assessory() {
   });
 
   return (
-    <section className="p-2 md:bg-Accessory-desktop bg-Accessory-mobile bg-no-repeat bg-center h-screen bg-cover overflow-hidden">
+    <section
+      className="p-2 md:bg-Accessory-desktop bg-Accessory-mobile bg-no-repeat bg-center h-screen bg-cover overflow-hidden"
+      data-aos="fade-in"
+    >
       <div className="flex flex-col h-3/4 items-center mt-20 py-20 md:py-0">
         <div
           id="hero-tex"
