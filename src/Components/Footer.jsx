@@ -1,10 +1,6 @@
 import React from "react";
 
-export default function Footer() {
-  let right = document.querySelector("span");
-
-  let date = new Date();
-  right = date.getFullYear();
+export default function Footer(props) {
 
   return (
     <footer>
@@ -14,7 +10,7 @@ export default function Footer() {
           className="hover:scale-110 transition-all ease duration-300"
         >
           <small>
-            Tesla &#169; <span>{right}</span>
+            Tesla &#169; <span>{props.date.getFullYear()}</span>
           </small>
         </a>
         <a
