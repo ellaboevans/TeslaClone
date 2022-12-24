@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import chevron from "../assets/chevron.svg";
 import Button from "./Button";
 import Navbar from "./Navbar";
@@ -8,18 +8,36 @@ import ModelX from "./ModelX";
 import SolarPanel from "./SolarPanel";
 import SolarRoof from "./SolarRoof";
 import Assessory from "./Assessory";
+import Backdrop from "./Backdrop";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Modal from "./Modal";
 
 export default function Header() {
+  let filters = {
+    backdropFilter: blur(8 + "px"),
+  };
+
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
 
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  function handleModal() {
+    setModalIsOpen(true);
+  }
+
+  function handleModalClose() {
+    setModalIsOpen(false);
+  }
+
   return (
     <>
-      <section className="p-2 md:bg-hero-image-desktop bg-hero-image-mobile bg-no-repeat  md:bg-center h-screen bg-cover overflow-hidden" >
-        <Navbar />
+      {modalIsOpen && <Modal />}
+      {modalIsOpen && <Backdrop closeModal={handleModalClose} />}
+
+      <section className="p-2 md:bg-hero-image-desktop bg-hero-image-mobile bg-no-repeat  md:bg-center h-screen bg-cover overflow-hidden">
+        <Navbar modal={modalIsOpen} modalHandler={handleModal} />
         <div className="flex flex-col h-3/4 items-center mt-0 md:mt-20 py-20 md:py-0">
           <div
             id="hero-tex"
