@@ -63,13 +63,12 @@ export default function Navbar(props) {
           >
             Account
           </a>
-          <a
-            href="#"
+          <button
             className="hover:bg-slate-400 mr-4 md:mr-0 bg-slate-400 md:bg-transparent hover:backdrop-blur inline-flex transition esase-out duration-700 py-1 px-4 rounded"
             onClick={props.modalHandler}
           >
             Menu
-          </a>
+          </button>
         </div>
       </nav>
     </header>
