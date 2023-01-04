@@ -54,6 +54,31 @@ const data = [
     LinkName: "Powerwall",
     path: "/",
   },
+  {
+    id: 11,
+    LinkName: "Commercial Energy",
+    path: "/",
+  },
+  {
+    id: 12,
+    LinkName: "Utities",
+    path: "/",
+  },
+  {
+    id: 13,
+    LinkName: "Find Us",
+    path: "/",
+  },
+  {
+    id: 14,
+    LinkName: "Support",
+    path: "/",
+  },
+  {
+    id: 15,
+    LinkName: "Investor Relations",
+    path: "/",
+  },
 ];
 
 export default data;
