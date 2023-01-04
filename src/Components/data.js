@@ -61,7 +61,7 @@ const data = [
   },
   {
     id: 12,
-    LinkName: "Utities",
+    LinkName: "Utilities",
     path: "/",
   },
   {
