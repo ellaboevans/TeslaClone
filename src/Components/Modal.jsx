@@ -1,5 +1,5 @@
 import data from "./data";
-console.log(data);
+// console.log(data);
 
 export default function Modal() {
   const links = data.map((link) => {

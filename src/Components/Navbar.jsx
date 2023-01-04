@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../assets/Tesla-logo.svg";
 
 export default function Navbar(props) {
-  console.log(props);
+  // console.log(props);
   return (
     <header className="px-8 font-medium text-gray-700 text-sm font-Gotham relative">
       <nav className="flex justify-between items-center fixed top-0 left-0 right-0 backdrop-blur shadow-lg z-10">
