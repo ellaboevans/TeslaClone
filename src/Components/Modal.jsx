@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import CloseButton from "./CloseButton";
 import data from "./data";
 // console.log(data);
@@ -14,14 +15,17 @@ export default function Modal() {
     );
   });
 
+  const [modalIsOpen, setModalIsOpen] = useState(true);
+
   function handleModalWithBtn() {
-  console.log("You clicked")
+    setModalIsOpen(false)
   }
 
   return (
     <>
       <div className="h-full p-16 bg-white z-50 fixed right-0 shadow-2xl shadow-gray-800 overflow-y-auto  text-slate-600 font-medium font-Gotham transition-transform delay-150 ease duration-120">
-        <CloseButton closeModalButton={handleModalWithBtn}/>
+
+        {modalIsOpen && <CloseButton closeModalButton={handleModalWithBtn} />}
         {links}
       </div>
     </>
