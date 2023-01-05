@@ -30,7 +30,7 @@ export default function Header() {
   function handleModalClose() {
     setModalIsOpen(false);
   }
-   -am ""
+   
   return (
     <>
       {modalIsOpen && <Modal />}
