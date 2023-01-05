@@ -30,15 +30,11 @@ export default function Header() {
   function handleModalClose() {
     setModalIsOpen(false);
   }
-   function handleModalWithBtn() {
-     setModalIsOpen(!modalIsOpen);
-   }
-
+   -am ""
   return (
     <>
       {modalIsOpen && <Modal />}
       {modalIsOpen && <Backdrop closeModal={handleModalClose} />}
-      {/* {modalIsOpen && <CloseButton closeModalButton={handleModalWithBtn} />} */}
 
       <section className="p-2 md:bg-hero-image-desktop bg-hero-image-mobile bg-no-repeat  md:bg-center h-screen bg-cover overflow-hidden">
         <Navbar modal={modalIsOpen} modalHandler={handleModal} />
