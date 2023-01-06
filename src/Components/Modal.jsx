@@ -1,8 +1,7 @@
-import CloseButton from "./CloseButton";
 import data from "./data";
 // console.log(data);
 
-export default function Modal() {
+export default function Modal(props) {
   const links = data.map((link) => {
     return (
       <div
@@ -15,12 +14,17 @@ export default function Modal() {
   });
 
 
- 
-
   return (
     <>
       <div className="h-full p-16 bg-white z-50 fixed right-0 shadow-2xl shadow-gray-800 overflow-y-auto  text-slate-600 font-medium font-Gotham transition-transform delay-150 ease duration-120">
-        <CloseButton/>
+        <div className=" ml-20">
+          <span
+            className="text-4xl ml-36 cursor-pointer"
+            onClick={props.closeModalWithButton}
+          >
+            &times;
+          </span>
+        </div>
         {links}
       </div>
     </>
