@@ -16,7 +16,7 @@ export default function Modal(props) {
 
   return (
     <>
-      <div className="h-full p-16 bg-white z-50 fixed right-0 shadow-2xl shadow-gray-800 overflow-y-auto  text-slate-600 font-medium font-Gotham transition-transform delay-150 ease duration-120">
+      <div className="h-full p-12 bg-white z-50 fixed right-0 shadow-2xl shadow-gray-800 overflow-y-auto  text-slate-600 font-medium font-Gotham transition-transform delay-150 ease duration-120">
         <div className=" ml-20">
           <span
             className="text-2xl ml-36 cursor-pointer"
