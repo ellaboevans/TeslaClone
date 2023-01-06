@@ -23,7 +23,7 @@ export default function SolarPanel() {
             Solar Panels
           </h1>
           <a href="#" className="text-sm text-gray-700">
-            SLowest Cost Solar Panels in America
+            Slowest Cost Solar Panels in America
           </a>
         </div>
         <div className="flex flex-col md:flex-row justify-between gap-4 items-center md:p-11 p-4 mt-60 md:mdt-72   ">
