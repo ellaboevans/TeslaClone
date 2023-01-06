@@ -33,7 +33,7 @@ export default function Header() {
    
   return (
     <>
-      {modalIsOpen && <Modal />}
+      {modalIsOpen && <Modal closeModalWithButton={handleModalClose}/>}
       {modalIsOpen && <Backdrop closeModal={handleModalClose} />}
 
       <section className="p-2 md:bg-hero-image-desktop bg-hero-image-mobile bg-no-repeat  md:bg-center h-screen bg-cover overflow-hidden">
