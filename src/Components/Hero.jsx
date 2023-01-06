@@ -14,9 +14,7 @@ import "aos/dist/aos.css";
 import Modal from "./Modal";
 
 export default function Header() {
-  let filters = {
-    backdropFilter: blur(8 + "px"),
-  };
+  
 
   useEffect(() => {
     Aos.init({ duration: 2000 });
