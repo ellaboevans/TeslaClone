@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/Tesla-logo.svg";
 
-export default function Navbar(props) {
+export default function Navbar({modalHandler}) {
   // console.log(props);
   return (
     <header className="px-8 font-medium text-gray-700 text-sm font-Gotham relative">
@@ -65,7 +65,7 @@ export default function Navbar(props) {
           </a>
           <button
             className="hover:bg-slate-400 mr-4 md:mr-0 bg-slate-400 md:bg-transparent hover:backdrop-blur inline-flex transition esase-out duration-700 py-1 px-4 rounded"
-            onClick={props.modalHandler}
+            onClick={modalHandler}
           >
             Menu
           </button>
