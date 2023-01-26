@@ -9,7 +9,7 @@ export default function Navbar(props) {
         <div id="logo" className="w-36 -mt-4 ">
           <img
             src={logo}
-            alt=""
+            alt="Tesla-company-logo"
             className="object-contain h-20 w-full cursor-pointer"
           />
         </div>
