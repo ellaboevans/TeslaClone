@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Footer(props) {
+export default function Footer({date}) {
 
   return (
     <footer>
@@ -10,7 +10,7 @@ export default function Footer(props) {
           className="hover:scale-110 transition-all ease duration-300"
         >
           <small>
-            Tesla &#169; <span>{props.date.getFullYear()}</span>
+            Tesla &#169; <span>{date.getFullYear()}</span>
           </small>
         </a>
         <a
