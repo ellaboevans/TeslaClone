@@ -1,7 +1,7 @@
 import data from "./data";
 // console.log(data);
 
-export default function Modal(props) {
+export default function Modal({closeModalWithButton}) {
   const links = data.map((link) => {
     return (
       <div
@@ -20,7 +20,7 @@ export default function Modal(props) {
         <div className=" ml-20">
           <span
             className="text-2xl ml-36 cursor-pointer"
-            onClick={props.closeModalWithButton}
+            onClick={closeModalWithButton}
           >
             &times;
           </span>
