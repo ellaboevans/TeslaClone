@@ -1,5 +1,4 @@
 import data from "./data";
-// console.log(data);
 
 export default function Modal({closeModalWithButton}) {
   const links = data.map((link) => {
